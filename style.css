@@ -31,8 +31,3 @@ svg {
   padding: 1em;
   text-decoration: none;
 }
-
-.center > a:hover {
-  color: pink;
-  text-decoration: underline;
-}
