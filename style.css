@@ -9,14 +9,6 @@ body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   cursor: grab;
-  display: flex;
-  flex-direction: column;
-}
-.marquee {
-  display: block;
-  left: 0;
-  position: absolute;
-  top: 0;
 }
 svg {
   display: block;
@@ -24,10 +16,9 @@ svg {
 .logo {
   fill: #fff;
 }
-
 .center {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -41,4 +32,9 @@ svg {
   text-transform: uppercase;
   padding: 1em;
   text-decoration: none;
+}
+
+.center > a:hover {
+  color: pink;
+  text-decoration: underline;
 }
