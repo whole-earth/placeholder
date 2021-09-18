@@ -18,7 +18,7 @@ svg {
 }
 .center {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto;
   align-items: center;
   justify-content: center;
