@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 2em 10%;
+    background-color: #141414;
+    color: white;
+}
+
+p {
+    font-size: 1.7em;
+    font-weight: 500;
+    padding-bottom: 0.2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 60vw;
+    max-height: 40vh;
+}
+
+@media only screen and (max-width: 800px) {
+    p { 
+        font-size: 1.4em;
+        padding-bottom: 0.4rem;
+        line-height: 1.2;
+    }
+}
