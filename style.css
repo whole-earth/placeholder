@@ -32,4 +32,8 @@ img {
         padding-bottom: 0.4rem;
         line-height: 1.2;
     }
+    
+    body {
+    padding: 1em;
+    }
 }
